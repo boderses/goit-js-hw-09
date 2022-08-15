@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.btns-position {
+  display: flex;
+  justify-content: center;
+  margin: 400px;
+}
+
+.btn-style {
+  margin: 5px;
+  padding: 20px 30px;
+  font-size: 25;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#datetime-picker {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  height: 30px;
+  width: 285px;
+  font-size: 20px;
+}
+
+.timer {
+  display: flex;
+  width: 350px;
+
+}
+
+.field {
+  width: 75px;
+  height: 85px;
+  text-align: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.timer .value {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.timer .label {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+  border: 2px solid #e89327;
+  border-radius: 3px;
+  width: 80px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+
+}
